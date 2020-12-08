@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/cyberpunk-streetwear/static/css/main.28cdd2ac.chunk.css",
+    "main.js": "/cyberpunk-streetwear/static/js/main.28382eb9.chunk.js",
+    "main.js.map": "/cyberpunk-streetwear/static/js/main.28382eb9.chunk.js.map",
+    "runtime-main.js": "/cyberpunk-streetwear/static/js/runtime-main.d4a380c6.js",
+    "runtime-main.js.map": "/cyberpunk-streetwear/static/js/runtime-main.d4a380c6.js.map",
+    "static/js/2.90740b9e.chunk.js": "/cyberpunk-streetwear/static/js/2.90740b9e.chunk.js",
+    "static/js/2.90740b9e.chunk.js.map": "/cyberpunk-streetwear/static/js/2.90740b9e.chunk.js.map",
+    "index.html": "/cyberpunk-streetwear/index.html",
+    "static/css/main.28cdd2ac.chunk.css.map": "/cyberpunk-streetwear/static/css/main.28cdd2ac.chunk.css.map",
+    "static/js/2.90740b9e.chunk.js.LICENSE.txt": "/cyberpunk-streetwear/static/js/2.90740b9e.chunk.js.LICENSE.txt",
+    "static/media/Sentionauts.87369474.mp3": "/cyberpunk-streetwear/static/media/Sentionauts.87369474.mp3",
+    "static/media/combined.86292e85.glb": "/cyberpunk-streetwear/static/media/combined.86292e85.glb"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d4a380c6.js",
+    "static/js/2.90740b9e.chunk.js",
+    "static/css/main.28cdd2ac.chunk.css",
+    "static/js/main.28382eb9.chunk.js"
+  ]
+}
