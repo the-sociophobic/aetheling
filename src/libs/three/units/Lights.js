@@ -2,10 +2,10 @@ import Unit from 'libs/three/Unit'
 
 
 const data = [
-  { color: 0x0000ff, x:  23, z: 13.8 },
-  { color: 0x00ff00, x:  11, z: 25 },
-  { color: 0xaa0055, x: -11, z: 25 },
-  { color: 0xaaaa00, x: -23, z: 13.8 },
+  { color: 0x31b0b0, x:  35, z: -13.8 },
+  { color: 0x8ba754, x:  31, z: 25 },
+  { color: 0x9c74b8, x: -31, z: 25 },
+  { color: 0xff0090, x: -35, z: -13.8 },
 ]
 
 
@@ -15,19 +15,19 @@ export default class Lowpoly extends Unit {
 
     const { scene, THREE } = props
 
-    this.light0 = new THREE.HemisphereLight( 0xffffff, 0x444444, 1.35 )
+    this.light0 = new THREE.HemisphereLight( 0xffffff, 0x444444, 3.35 )
     this.light0.position.set(0, 3, 0)
     scene.add( this.light0 )
 
     this.lights = []
 
     data.forEach((lightData, index) => {
-      this.lights.push(new THREE.SpotLight( lightData.color, 0xffffff, 35 ))
+      this.lights.push(new THREE.SpotLight( lightData.color, 0xffffff, 43 ))
 
       const light = this.lights[index]
 
       light.position.set( lightData.x, -12.5, lightData.z )
-      // light.castShadow = true
+      light.castShadow = true
       light.decay = 12
       scene.add( light )
   

@@ -33,7 +33,7 @@ export default class Room extends classes(Model, transitionHandler) {
 
   onLoad = () => {
     this.scene.scale.multiplyScalar(12.5)
-    this.scene.position.add(new THREE.Vector3(0, -35, 20))
+    this.scene.position.add(new THREE.Vector3(17, -35, 20))
     // this.scene.rotation.y += Math.PI
     this.scene.rotation.x += Math.PI / 7
 
@@ -41,19 +41,25 @@ export default class Room extends classes(Model, transitionHandler) {
     // this.walls = this.scene.children[1]
     // this.logo = this.scene.children[2]
 
-    // this.room.castShadow = true
-    // this.room.receiveShadow = true
-    // this.walls.castShadow = true
-    // this.walls.receiveShadow = true
-
+    // this.scene.castShadow = true
+    // this.scene.receiveShadow = true
+    this.props.onLoad()
   }
 
   animate = props => {
-    this.animateTransitions()
 
-    let alpha = props.frameNumber / props.maxFrameNumber * 7
+    // let alpha = props.frameNumber / props.maxFrameNumber * 7
 
-    this.scene && (this.scene.rotation.y = alpha * 1.2 * Math.PI)
+    // this.scene && (this.scene.rotation.y = alpha * 1.2 * Math.PI)
+
+    if (this.scene) {
+      this.animateTransitions()
+
+      const { alphaX, alphaY } = props.input.mouse
+
+      this.scene.rotation.y = Math.PI / 1.2 - (Math.sign(alphaX) * Math.abs(alphaX) ** 3) * 5
+      this.scene.rotation.z = -Math.PI / 5 - (Math.sign(alphaY) * Math.abs(alphaY) ** 3) * 3
+    }
   }
   dispose = props => {}
 }

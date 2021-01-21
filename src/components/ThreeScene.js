@@ -14,10 +14,10 @@ export default class ThreeScene extends React.Component {
     this.viewerRef = new React.createRef()
 
     this.scene = new Scene({
-      react: {
-        openDoor: data => console.log("data")
-      },
+      react: {},
       units: props.units,
+      onLoad: props.onLoad,
+      start: props.start,
     })
   }
 

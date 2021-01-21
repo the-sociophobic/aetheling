@@ -1,7 +1,6 @@
 import Unit from 'libs/three/Unit'
 import clamp from 'clamp'
 import isTouchDevice from 'libs/utils/isTouchDevice'
-import isMobile from 'libs/utils/isMobile'
 
 
 const initialThis = {

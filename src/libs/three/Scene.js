@@ -13,10 +13,11 @@ const targetToCamera = -25
 const maxFrameNumber = 5000
 
 
-export default class Scene extends transitionHandler {
+class Scene extends transitionHandler {
 
   constructor(props) {
     super(props)
+    console.log(this.props)
     this.scene = {
       renderer: undefined,
       camera: undefined,
@@ -68,7 +69,6 @@ export default class Scene extends transitionHandler {
     this.scene.composer = new EffectComposer(this.scene.renderer)
     this.scene.renderPass = new RenderPass(this.scene.scene, this.scene.camera)
     this.scene.glitchPass = new GlitchPass()
-    console.log(this.scene.glitchPass)
 
     this.scene.composer.addPass(this.scene.renderPass)
     this.scene.composer.addPass(this.scene.glitchPass)
@@ -99,7 +99,8 @@ export default class Scene extends transitionHandler {
   }
 
   animate = () => {
-    this.scene.frameNumber = (this.scene.frameNumber + 1) % maxFrameNumber
+    // if (this.props.start)      
+      this.scene.frameNumber = (this.scene.frameNumber + 1) % maxFrameNumber
 
     const { left, right, top, bottom } = this.scene.renderer.domElement.getBoundingClientRect()
  
@@ -123,9 +124,10 @@ export default class Scene extends transitionHandler {
           units[unitName].animate({
             THREE: THREE,
             ...this.scene,
-            input: this.scene.units.Controls,
+            input: this.scene.units.mouse,
             maxFrameNumber: maxFrameNumber,
             react: this.props.react,
+            onLoad: this.props.onLoad
           }))
   
       controls.update()
@@ -145,6 +147,7 @@ export default class Scene extends transitionHandler {
       input: this.scene.units.Controls,
       maxFrameNumber: maxFrameNumber,
       react: this.props.react,
+      onLoad: this.props.onLoad,
     }
 
     Object.keys(this.props.units)
@@ -184,3 +187,6 @@ export default class Scene extends transitionHandler {
   //   console.log(this.scene.scene.children)
   // }
 }
+
+
+export default Scene
