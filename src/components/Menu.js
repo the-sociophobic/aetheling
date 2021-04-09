@@ -5,6 +5,10 @@ import Catalog from 'pages/Catalog'
 import About from 'pages/About'
 import Cart from 'pages/Cart'
 
+import green from 'styles/img/green.png'
+import black from 'styles/img/black.png'
+import blue from 'styles/img/blue.png'
+
 
 const pages = [
   {
@@ -32,15 +36,18 @@ const pages = [
 const products = [
   {
     name: "GN",
-    img: "green.png",
+    // img: "green.png",
+    img: green,
   },
   {
     name: "BK",
-    img: "black.png",
+    // img: "black.png",
+    img: black,
   },
   {
     name: "BE",
-    img: "blue.png",
+    // img: "blue.png",
+    img: blue,
   },
 ]
 

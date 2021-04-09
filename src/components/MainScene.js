@@ -43,7 +43,7 @@ class MainScene extends React.Component {
   }
 
   start = () => {
-    // this.audio.play()
+    this.audio.play()
     this.setState({ started: true })
   }
 
