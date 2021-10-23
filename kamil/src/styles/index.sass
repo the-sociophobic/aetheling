@@ -33,16 +33,45 @@
   font-size: inherit
   color: inherit
 
+.cursor-pointer
+  cursor: pointer
+
 
 // COLORS
 $dark: black
-$light: white
-$grey: #212121
-$main: #FFEFB7
-$red: #BC5151
+$gray: #373737
+$blue: rgb(122, 251, 255)
+$red: rgb(255, 0, 0)
+
+.color-blue
+  color: $blue
+.color-red
+  color: $red
 
 
-.App
-  width: 100px
-  height: 100px
-  background-color: $red
+#root
+  width: 100vw
+  .App
+    background-color: $dark
+    width: 100%
+    font-family: zgjf
+    padding: 30px 0
+
+.ImageViewer
+  @extend .row
+  &__images
+    @extend .col-6
+    @extend .d-flex
+    @extend .flex-row
+    @extend .flex-wrap
+    @extend .justify-content-between
+    margin-bottom: -5px
+    &__item
+      width: calc(33.333% - 3px)
+      height: calc(33.333% - 5px)
+      &:not(&--selected)
+        cursor: pointer
+      &--selected
+        position: relative
+        display: block
+        box-shadow: 0 0 0px 2px $red
