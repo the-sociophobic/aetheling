@@ -45,7 +45,7 @@ const App: React.FC = () => {
               ФОЛЬГИРОВАННАЯ ПОДКЛАДКА
             </h2>
             <h1 className='h1 color-red'>
-              32000 ₽
+              35000 ₽
             </h1>
           </div>
         </div>
