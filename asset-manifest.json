@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/cyberpunk-streetwear/static/css/main.2b6c9cf2.chunk.css",
-    "main.js": "/cyberpunk-streetwear/static/js/main.ddfc54b2.chunk.js",
-    "main.js.map": "/cyberpunk-streetwear/static/js/main.ddfc54b2.chunk.js.map",
+    "main.css": "/cyberpunk-streetwear/static/css/main.65fecbcd.chunk.css",
+    "main.js": "/cyberpunk-streetwear/static/js/main.04d13fbe.chunk.js",
+    "main.js.map": "/cyberpunk-streetwear/static/js/main.04d13fbe.chunk.js.map",
     "runtime-main.js": "/cyberpunk-streetwear/static/js/runtime-main.12469201.js",
     "runtime-main.js.map": "/cyberpunk-streetwear/static/js/runtime-main.12469201.js.map",
     "static/js/2.9ae41054.chunk.js": "/cyberpunk-streetwear/static/js/2.9ae41054.chunk.js",
@@ -10,23 +10,23 @@
     "static/js/3.ea8f2f23.chunk.js": "/cyberpunk-streetwear/static/js/3.ea8f2f23.chunk.js",
     "static/js/3.ea8f2f23.chunk.js.map": "/cyberpunk-streetwear/static/js/3.ea8f2f23.chunk.js.map",
     "index.html": "/cyberpunk-streetwear/index.html",
-    "static/css/main.2b6c9cf2.chunk.css.map": "/cyberpunk-streetwear/static/css/main.2b6c9cf2.chunk.css.map",
+    "static/css/main.65fecbcd.chunk.css.map": "/cyberpunk-streetwear/static/css/main.65fecbcd.chunk.css.map",
     "static/js/2.9ae41054.chunk.js.LICENSE.txt": "/cyberpunk-streetwear/static/js/2.9ae41054.chunk.js.LICENSE.txt",
     "static/media/0.1edb0d1d.jpg": "/cyberpunk-streetwear/static/media/0.1edb0d1d.jpg",
-    "static/media/1.6f7e17c8.jpg": "/cyberpunk-streetwear/static/media/1.6f7e17c8.jpg",
-    "static/media/2.5fae0b28.jpg": "/cyberpunk-streetwear/static/media/2.5fae0b28.jpg",
-    "static/media/3.25717cb2.jpg": "/cyberpunk-streetwear/static/media/3.25717cb2.jpg",
-    "static/media/4.0b742308.jpg": "/cyberpunk-streetwear/static/media/4.0b742308.jpg",
-    "static/media/5.6a06fcd6.jpg": "/cyberpunk-streetwear/static/media/5.6a06fcd6.jpg",
-    "static/media/6.d7bed2d0.jpg": "/cyberpunk-streetwear/static/media/6.d7bed2d0.jpg",
-    "static/media/7.586f5dae.jpg": "/cyberpunk-streetwear/static/media/7.586f5dae.jpg",
-    "static/media/8.8e539af6.jpg": "/cyberpunk-streetwear/static/media/8.8e539af6.jpg",
-    "static/media/9.acd3ea6c.jpg": "/cyberpunk-streetwear/static/media/9.acd3ea6c.jpg"
+    "static/media/1.226a04c2.jpg": "/cyberpunk-streetwear/static/media/1.226a04c2.jpg",
+    "static/media/2.64051a1f.jpg": "/cyberpunk-streetwear/static/media/2.64051a1f.jpg",
+    "static/media/3.2966a237.jpg": "/cyberpunk-streetwear/static/media/3.2966a237.jpg",
+    "static/media/4.c2344427.jpg": "/cyberpunk-streetwear/static/media/4.c2344427.jpg",
+    "static/media/5.8f8f2f6a.jpg": "/cyberpunk-streetwear/static/media/5.8f8f2f6a.jpg",
+    "static/media/6.03aefcec.jpg": "/cyberpunk-streetwear/static/media/6.03aefcec.jpg",
+    "static/media/7.60e1e0c8.jpg": "/cyberpunk-streetwear/static/media/7.60e1e0c8.jpg",
+    "static/media/8.a9baf209.jpg": "/cyberpunk-streetwear/static/media/8.a9baf209.jpg",
+    "static/media/9.a2bf8a47.jpg": "/cyberpunk-streetwear/static/media/9.a2bf8a47.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.12469201.js",
     "static/js/2.9ae41054.chunk.js",
-    "static/css/main.2b6c9cf2.chunk.css",
-    "static/js/main.ddfc54b2.chunk.js"
+    "static/css/main.65fecbcd.chunk.css",
+    "static/js/main.04d13fbe.chunk.js"
   ]
 }
