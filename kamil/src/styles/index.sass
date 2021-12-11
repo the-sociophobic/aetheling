@@ -1,3 +1,7 @@
+$grid-breakpoints: ( xs: 0, sm: 576px, md: 768px, lg: 1024px, xl: 1368px )
+$container-max-widths: ( xs: 80vw, sm: 500px, md: 680px, lg: 920px, xl: 1100px )
+
+  
 @import '~bootstrap/scss/bootstrap.scss'
 
 
@@ -51,8 +55,12 @@ $red: rgb(255, 0, 0)
 .h3
   font-size: calc(1rem + 0.6vw)
 
+body
+  background-color: $dark
+  
 #root
   width: 100vw
+  background-color: $dark
   .App
     background-color: $dark
     width: 100%
