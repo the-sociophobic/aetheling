@@ -8,7 +8,7 @@ const App: React.FC = () => {
 
   return (
     <div className="App">
-      <div className='container'>
+      <div className='widget-container'>
         <div className='row'>
           <div className='col-12 col-lg-7 px-0 pe-lg-5 d-flex flex-row justify-content-between'>
             <h2 className='h2 color-blue'>
@@ -38,14 +38,23 @@ const App: React.FC = () => {
             <ImageViewer male={male} />
           </div>
           <div className='col-12 col-lg-5 d-flex flex-column justify-content-between pb-0 pb-lg-5 ps-0 ps-lg-5'>
-            <h2 className='h2 color-blue'>
-              ОБОЛОЧКА SOFTSHELL (WR TPU 10000/3000)
-            </h2>
-            <h2 className='h2 color-blue'>
-              ФОЛЬГИРОВАННАЯ ПОДКЛАДКА
-            </h2>
+            <h3 className='h3 color-blue'>
+              ВЫСОКОТЕХНОЛОГИЧНАЯ МЕМБРАННАЯ ТКАНЬ ОБЕСПЕЧИВАЕТ ТЕПЛО И КОМФОРТ ДАЖЕ В ЭКСТРЕМАЛЬНЫХ УСЛОВИЯХ
+            </h3>
+            <h3 className='h3 color-blue'>
+              ВЛАГОСТОЙКОСТЬ<br />
+              ЗАЩИТА ОТ ВЕТРА<br />
+              ЗАЩИТА ОТ СНЕГА И ГРЯЗИ<br />
+              ЗАЩИТА ОТ УЛЬТРАФИОЛЕТА
+            </h3>
+            <h3 className='h3 color-blue'>
+              ПРОЧНЫЕ МАГНИТНЫЕ ЗАСТЕЖКИ ДЛЯ МНОГОФУНКЦИОНАЛЬНОГО ПРИМЕНЕНИЯ
+            </h3>
+            <h3 className='h3 color-blue'>
+              ЛОГОТИП ИЗ РЕФЛЕКТИВНОГО МАТЕРИАЛА
+            </h3>
             <h1 className='h1 color-red'>
-              35000 ₽
+              35000 P
             </h1>
           </div>
         </div>

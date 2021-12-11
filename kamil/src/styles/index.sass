@@ -48,6 +48,8 @@ $red: rgb(255, 0, 0)
 .color-red
   color: $red
 
+.h3
+  font-size: calc(1rem + 0.6vw)
 
 #root
   width: 100vw
@@ -56,6 +58,8 @@ $red: rgb(255, 0, 0)
     width: 100%
     font-family: zgjf
     padding: 30px 0
+    .widget-container
+      @extend .container
 
 .ImageViewer
   @extend .row
