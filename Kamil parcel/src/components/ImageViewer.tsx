@@ -7,11 +7,22 @@ export type TImageViewerProps = {
 }
 
 
+const timeDelay = 3000
+
 const ImageViewer: React.FC<TImageViewerProps> = ({
   male
 }) => {
   const [currentImage, setCurrentImage] = React.useState(0)
   const images = male ? maleImages : femaleImages
+  let interval = null
+
+  React.useEffect(() => {
+    interval = setInterval(() =>
+      setCurrentImage((currentImage + 1 + images.length) % images.length), timeDelay)
+
+    return () =>
+      interval = clearInterval(interval)
+  })
 
   return (
     <div className='ImageViewer'>

@@ -9,8 +9,8 @@ const App: React.FC = () => {
   return (
     <div className="App">
       <div className='widget-container'>
-        <div className='row'>
-          <div className='col-12 col-lg-7 px-0 pe-lg-5 d-flex flex-row justify-content-between'>
+        <div className='row mb-4'>
+          <div className='col-12 px-0 pe-lg-5 d-flex flex-row justify-content-between'>
             <h2 className='h2 color-blue'>
               КУРТКА DX01
             </h2>
@@ -39,19 +39,12 @@ const App: React.FC = () => {
           </div>
           <div className='col-12 col-lg-5 d-flex flex-column justify-content-between pb-0 pb-lg-5 ps-0 ps-lg-5'>
             <h3 className='h3 color-blue'>
-              ВЫСОКОТЕХНОЛОГИЧНАЯ МЕМБРАННАЯ ТКАНЬ ОБЕСПЕЧИВАЕТ ТЕПЛО И КОМФОРТ ДАЖЕ В ЭКСТРЕМАЛЬНЫХ УСЛОВИЯХ
+              ОСНОВА - СОФТШЕЛЛ:<br />
+              92% ПОЛИЭСТЕР; 8% СПАНДЕКС; ПЛОТНОСТЬ 320г/м2
             </h3>
             <h3 className='h3 color-blue'>
-              ВЛАГОСТОЙКОСТЬ<br />
-              ЗАЩИТА ОТ ВЕТРА<br />
-              ЗАЩИТА ОТ СНЕГА И ГРЯЗИ<br />
-              ЗАЩИТА ОТ УЛЬТРАФИОЛЕТА
-            </h3>
-            <h3 className='h3 color-blue'>
-              ПРОЧНЫЕ МАГНИТНЫЕ ЗАСТЕЖКИ ДЛЯ МНОГОФУНКЦИОНАЛЬНОГО ПРИМЕНЕНИЯ
-            </h3>
-            <h3 className='h3 color-blue'>
-              ЛОГОТИП ИЗ РЕФЛЕКТИВНОГО МАТЕРИАЛА
+              ПОДКЛАДКА ФОЛЬГИРОВАННАЯ:<br />
+              100% ПОЛИЭСТЕР; ПЛОТНОСТЬ 65г/м2
             </h3>
             <h1 className='h1 color-red'>
               35000 P
