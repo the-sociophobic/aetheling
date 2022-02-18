@@ -1,10 +1,12 @@
 import React from 'react'
 import ImageViewer from './components/ImageViewer'
+import Dropdown from './components/Dropdown'
 import './styles/index.sass'
 
 
 const App: React.FC = () => {
-  const [male, setMale] = React.useState(true)
+  const [male, setMale] = React.useState<boolean>(true)
+  const [size, setSize] = React.useState<'S'|'M'|'L'>('M')
 
   return (
     <div className="App">
@@ -46,9 +48,18 @@ const App: React.FC = () => {
               ПОДКЛАДКА ФОЛЬГИРОВАННАЯ:<br />
               100% ПОЛИЭСТЕР; ПЛОТНОСТЬ 65г/м2
             </h3>
-            <h1 className='h1 color-red'>
-              35000 P
-            </h1>
+            <div className='d-flex flex-column'>
+              <h1 className='h1 color-red d-block'>
+                35000 P
+              </h1>
+              <Dropdown
+                size={size}
+                setSize={setSize}
+              />
+              <div className='Button--red mt-3'>
+                в корзину
+              </div>
+            </div>
           </div>
         </div>
       </div>
