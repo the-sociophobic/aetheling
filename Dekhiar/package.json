@@ -1,5 +1,5 @@
 {
-  "homepage": "https://the-sociophobic.github.io/cyberpunk-streetwear/",
+  "homepage": "https://the-sociophobic.github.io/aetheling/",
   "name": "color-magic",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
+    "predeploy": "yarn build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
